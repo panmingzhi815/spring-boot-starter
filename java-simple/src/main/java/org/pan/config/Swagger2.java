@@ -30,7 +30,7 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("simple java 极简开发平台")
-                .contact("panmingzhi815")
+                .contact("潘明智")
                 .version("1.0")
                 .build();
     }

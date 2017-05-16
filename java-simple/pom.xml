@@ -50,6 +50,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>6.0.6</version>
+            <scope>run</scope>
         </dependency>
 
         <!--mybatis-->
@@ -87,7 +88,7 @@
                 <version>3.6.1</version>
                 <configuration>
                     <target>1.8</target>
-                    <sources>1.8</sources>
+                    <source>1.8</source>
                 </configuration>
             </plugin>
         </plugins>
